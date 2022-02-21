@@ -1,0 +1,33 @@
+{
+  "name": "json-placeholder-graphql",
+  "version": "1.0.0",
+  "description": "A simple GraphQL endpoint : https://jsonplaceholder.typicode.com/",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wijaysali/json-placeholder-graphql.git"
+  },
+  "keywords": [
+    "express",
+    "graphql",
+    "node",
+    "jsonplaceholder"
+  ],
+  "homepage": "https://github.com/wijaysali/json-placeholder-graphql#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "nodemon": "^2.0.15"
+  },
+  "bugs": {
+    "url": "https://github.com/wijaysali/json-placeholder-graphql/issues"
+  },
+  "author": "WS",
+  "license": "ISC"
+}
